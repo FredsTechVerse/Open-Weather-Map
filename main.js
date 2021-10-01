@@ -55,12 +55,6 @@ displayData(newObject){
     humidity.innerHTML = newObject.humidity;
     pressure.innerHTML = newObject.pressure;
 
-
-
-    
-
-    
-
   
 }
 }
