@@ -13,7 +13,7 @@ class Weather{
 async getProducts(){
     try {
 
-        let rawData = await fetch("https://api.openweathermap.org/data/2.5/weather?q=Limuru&appid=567766cda2201c50960c8f37b2ee3bf8");
+        let rawData = await fetch("https://api.openweathermap.org/data/2.5/weather?q=Nyeri&appid=567766cda2201c50960c8f37b2ee3bf8");
 
         let data = await rawData.json();
 
